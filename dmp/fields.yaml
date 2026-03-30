@@ -12,44 +12,74 @@ github_repository: dmp-lubricants-rb
 
 project_type: TODO
 project_slug: Lubricants-MD
-project_title: Bridging Time and Length Scales: From Atomistic Simulations to Constitutive Models
+project_title: "Bridging Time and Length Scales : From Atomistic Simulations to Constitutive Models"
 
 # Official project start date in YYYY-MM-DD format, between single quotes.
-project_start: 'YYYY-MM-0D'
+project_start: '2025-10-01'
 
 # Official project end date in YYYY-MM-DD format, between single quotes.
-project_end: 'YYYY-MM-0D'
+project_end: '2029-09-30'
 
 # Abstract from the project application
 project_abstract: |
-  TODO
+  Molecular Dynamics (MD) simulations are able to simulate lubricants under operando conditions,
+  but current analysis practices extract only limited information from finite,
+  noisy trajectories and rarely quantify uncertainty, directionality, or cross-couplings.
+  Consequently,
+  state-of-the-art MD post-processing fails to reach its full potential in bridging the gap from atomistic time and length scales to macroscopic reality.
 
-grant_number: TODO
+  This project establishes an uncertainty-aware MD framework with synthetic validation datasets for equilibrium MD,
+  non-equilibrium MD,
+  and the transient time correlation function method to obtain reliable transport properties.
+  We quantify anisotropy and off-diagonal transport responses that emerge under symmetry breaking from shear, confinement, or compositional heterogeneity,
+  identifying when scalar closures fail.
+  This project identifies the structural and dynamical mechanisms that drive non-Newtonian rheology by linking changes in relaxation channels, cooperative motion, and molecular organization to changes in viscosity.
+
+  Together, these advances transform MD outputs into validated and direction-resolved transport properties for continuum modeling, benchmarking of machine-learning potentials, and designing next-generation lubricants.
+
+
+grant_number: BOF/24J/2021/118
 grant_url: |
-  https://example.org/
+  https://research.ugent.be/web/result/project/b54e6ff5-5f33-11ec-8b09-c5a2063e752c/details/bof-24j-2021-118-molecular-dynamics-modelling-of-lubricants-at-ultra-high-pressures-with-force-fields-derived-ab-initio/en
+
 
 
 ## 3. Relevant Persons and Services
 
 persons:
-  - name: Full name 1
-    role: PI/Co-PI/PhD student/Postdoc/Researcher/...
-    email: foo@bar.egg
-    orcid: 0000-0000-0000-0000
+  - name: Toon Verstraelen
+    role: PI
+    email: Toon.Verstraelen@UGent.be
+    orcid: 0000-0001-9288-5608
+    live: yes
+    archive: yes
+  - name: Dieter Fauconnier
+    role: Co-PI
+    email: Dieter.Fauconnier@UGent.be
+    orcid: 0000-0002-0257-4687
+    live: yes
+    archive: yes
+  - name: Robbe Bohy
+    role: doctoral student
+    email: Robbe.Bohy@UGent.be
+    orcid: 0009-0005-0024-0607
     live: yes
     archive: no
-  - name: Full name 2
-    role: PI/Co-PI/PhD student/Postdoc/Researcher/...
-    email: foo@bar.egg
-    orcid: 0000-0000-0000-0000
-    live: no
-    archive: yes
 
 university_storage: |
-  - TODO
+  - UGent Project Shares.
+    This is a Windows-based platform without support for
+    Unix file permissions, symbolic links, nor SSH access.
+    Hence, it will only be used for long-term storage of completed datasets,
+    for which the burden of the occasional manual upload of data is acceptable.
+  - On-premises SSH server.
+    All researchers with access to live data will exchange larger data sets
+    through an SSH server managed by one of the PIs.
 
 hpc: |
-  - TODO
+  - Resource-intensive calculations are carried out at the infrastructure of the
+    #link("https://www.vscentrum.be/")[Vlaams Supercomputer Centrum (VSC)].
+    Data is only kept on the HPC clusters for the duration of the calculations.
 
 
 ## 4. Data Collection
@@ -59,16 +89,23 @@ hpc: |
 # Mention the file formats and explain long-term usability.
 # Also mention what role each data set will play in the project.
 raw_data_what: |
-  - TODO
+  - Molecular dynamics simulations
+    (CSV and XYZ trajectory formats)
+  - Post-processing analysis of the molecular dynamics simulations
+    to derive physical properties.
+    (CSV, NPY, NPZ, Pickle, and JSON formats)
 
 # List additional source files in text-based formats that will be employed in the project.
 # Emphasize standard formats that are widely adopted and can be created and processed with open-source tools.
 source_text_how: |
-  - TODO
+  - Jinja2 templates for input files of molecular dynamics simulation software.
 
 ## 7. Data Selection and Preservation after Research
 
 # Describe for how long data are preserved.
 # Mention requirements imposed by funding agencies.
 data_lifetime: |
-  TODO
+  Ghent University's RDM policy framework expects 'relevant' research data
+  to be preserved for a minimum of 5 years.
+  However, in our field, data remains valuable for longer periods of time.
+  The data created in this project will be preserved for at least 10 years.
