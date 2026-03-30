@@ -12,7 +12,7 @@ github_repository: dmp-lubricants-rb
 
 project_type: TODO
 project_slug: Lubricants-MD
-project_title: "Bridging Time and Length Scales : From Atomistic Simulations to Constitutive Models"
+project_title: "Bridging Time and Length Scales: From Atomistic Simulations to Constitutive Models"
 
 # Official project start date in YYYY-MM-DD format, between single quotes.
 project_start: '2025-10-01'
