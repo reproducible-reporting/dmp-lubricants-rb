@@ -1,0 +1,74 @@
+# SPDX-FileCopyrightText: © 2024 RepRep's DMP Template Authors <https://github.com/reproducible-reporting/dmp-template/blob/main/AUTHORS.md>
+# SPDX-FileCopyrightText: © 2026 "Robbe Bohy" <Robbe.Bohy@UGent.be>
+# SPDX-License-Identifier: CC-BY-NC-SA-4.0
+
+## 1. Preamble
+
+# The GitHub repository "owner" and "repository" of this DMP.
+github_owner: reproducible-reporting
+github_repository: dmp-lubricants-rb
+
+## 2. Project information
+
+project_type: TODO
+project_slug: Lubricants-MD
+project_title: Bridging Time and Length Scales: From Atomistic Simulations to Constitutive Models
+
+# Official project start date in YYYY-MM-DD format, between single quotes.
+project_start: 'YYYY-MM-0D'
+
+# Official project end date in YYYY-MM-DD format, between single quotes.
+project_end: 'YYYY-MM-0D'
+
+# Abstract from the project application
+project_abstract: |
+  TODO
+
+grant_number: TODO
+grant_url: |
+  https://example.org/
+
+
+## 3. Relevant Persons and Services
+
+persons:
+  - name: Full name 1
+    role: PI/Co-PI/PhD student/Postdoc/Researcher/...
+    email: foo@bar.egg
+    orcid: 0000-0000-0000-0000
+    live: yes
+    archive: no
+  - name: Full name 2
+    role: PI/Co-PI/PhD student/Postdoc/Researcher/...
+    email: foo@bar.egg
+    orcid: 0000-0000-0000-0000
+    live: no
+    archive: yes
+
+university_storage: |
+  - TODO
+
+hpc: |
+  - TODO
+
+
+## 4. Data Collection
+
+# List the types of the raw data sets that will be generated through experimental
+# measurements or computer simulations.
+# Mention the file formats and explain long-term usability.
+# Also mention what role each data set will play in the project.
+raw_data_what: |
+  - TODO
+
+# List additional source files in text-based formats that will be employed in the project.
+# Emphasize standard formats that are widely adopted and can be created and processed with open-source tools.
+source_text_how: |
+  - TODO
+
+## 7. Data Selection and Preservation after Research
+
+# Describe for how long data are preserved.
+# Mention requirements imposed by funding agencies.
+data_lifetime: |
+  TODO
