@@ -47,16 +47,16 @@ grant_url: |
 ## 3. Relevant Persons and Services
 
 persons:
-  - name: Toon Verstraelen
-    role: PI
-    email: Toon.Verstraelen@UGent.be
-    orcid: 0000-0001-9288-5608
-    live: yes
-    archive: yes
   - name: Dieter Fauconnier
-    role: Co-PI
+    role: PI
     email: Dieter.Fauconnier@UGent.be
     orcid: 0000-0002-0257-4687
+    live: yes
+    archive: yes
+  - name: Toon Verstraelen
+    role: Co-PI
+    email: Toon.Verstraelen@UGent.be
+    orcid: 0000-0001-9288-5608
     live: yes
     archive: yes
   - name: Robbe Bohy
